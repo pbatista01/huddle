@@ -3,7 +3,7 @@ import iconLocation from './images/icon-location.svg';
 import iconPhone from './images/icon-phone.svg';
 import iconEmail from './images/icon-email.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Footer(){
     return(
@@ -37,12 +37,18 @@ function Footer(){
                     <li className="mt-4"><a>Contact Us</a></li>
                 </ul>
             </div>
-            <div className="text-white">
-            <FontAwesomeIcon icon={faFacebook} className="border rounded-full size-5"/>
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faInstagram} />
-            
+            <div className="text-white h-3 flex flex-row justify-between w-[120px] mx-auto mt-[60px]">
+                <div className="size-8 border rounded-full text-center leading-[30px]">
+                <FontAwesomeIcon icon={faFacebookF} className="size-4"/>
+                </div>
+                <div className="size-8 border rounded-full text-center leading-[30px] ">
+            <FontAwesomeIcon icon={faTwitter} className="size-4"/>
             </div>
+            <div className="size-8 border rounded-full text-center leading-[30px] ">
+            <FontAwesomeIcon icon={faInstagram} className="size-4"/>
+            </div>
+            </div>
+            <p className="text-white text-[11px] w-[236px] mx-auto pb-10 mt-4">© Copyright 2018 Huddle. All rights reserved.</p>
         </footer>
     );
 }
