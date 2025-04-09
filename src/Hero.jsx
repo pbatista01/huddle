@@ -2,13 +2,13 @@ import heroImg from './images/illustration-mockups.svg';
 
 function Hero(){
     return(
-        <section className="px-9 pt-14 pb-[33px] text-center bg-paleCyan bg-cover bg-no-repeat bg-hero-mobile md:bg-hero-desktop" >
-            <div className="flex flex-col lg:flex-row">
-                <h1 className="font-heading text-darkCyan text-2xl/9 mt-[2px]">Build The Community Your Fans Will Love</h1>
-                <p className="text-[16px] mt-[21px] w-full">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-                <button className="w-[238px] h-10 bg-pink text-white font-heading text-[11.5px] rounded-full m-auto mt-8 font-medium">Get Started For Free</button>
+        <section className="px-9 pt-14 lg:px-20 pb-[33px] lg:pb-[65px] text-center lg:text-start bg-paleCyan bg-cover bg-no-repeat bg-hero-mobile md:bg-hero-desktop flex flex-col lg:flex-row lg:gap-4" >
+            <div className="flex flex-col lg:basis-128">
+                <h1 className="font-heading text-darkCyan text-2xl/9 mt-[2px] lg:w-[90%] lg:text-[40px] lg:mt-[45px] lg:leading-[60px]">Build The Community Your Fans Will Love</h1>
+                <p className="text-[16px] lg:w-[97%] lg:text-[19px] mt-[21px] lg:mt-[30px] w-full">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <button className="w-[238px] lg:w-[280px] h-10 lg:h-14 bg-pink text-white font-heading text-[11.5px] lg:text-[15px] rounded-full m-auto lg:mx-1 mt-8 font-medium hover:opacity-50">Get Started For Free</button>
             </div>
-            <img src={heroImg} alt="chat images" className="mt-[52px]"/>
+            <img src={heroImg} alt="chat images" className="mt-[52px] lg:basis-128 lg:w-[450px] lg:mt-[-50px] lgplus:w-[698px]"/>
         </section>
     );
 }

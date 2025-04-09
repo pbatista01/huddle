@@ -23,6 +23,9 @@ export default {
     fontSize: {
       base: '18px',
     },
+    screens: {
+      'lgplus': '1440px',
+    },
   },
   plugins: [],
 }
