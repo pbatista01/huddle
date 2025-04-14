@@ -20,16 +20,16 @@ function App() {
         featureImg={growImg}
         featureTitle="Grow Together"
         featureDescription="Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form."
-        extraMargin="lg:w-[75%]"
+        extraMargin="lgplus:w-[75%]"
       />
       <Feature
         featureImg={flowImg}
         featureTitle="Flowing Conversations"
         featureDescription="You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow."
         extraOuterClass="pt-[66px] lg:mt-10"
-        extraInnerClass="mt-[68px] pb-[52px] lg:ml-[169px]"
-        extraMargin="mt-[15px] lg:w-[100%]"
-        changeOrderImg="lg:order-1"
+        extraInnerClass="mt-[68px] pb-[52px] lgplus:ml-[169px] lg:order-3 lg:ml-[40px]"
+        extraMargin="mt-[15px] lgplus:w-[100%]"
+        changeOrderImg="lg:order-1 lgplus:order-1"
       />
       <Feature
         featureImg={usersImg}
@@ -37,7 +37,7 @@ function App() {
         featureDescription="It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately."
         extraOuterClass="mt-[39px] pt-[60px] lg:mt-10"
         extraInnerClass="mt-[63px]"
-        extraMargin="mt-[14px] w-[95%] lg:w-[73%] "
+        extraMargin="mt-[14px] w-[95%] lgplus:w-[73%] "
       />
       <CTA />
       <Footer />
