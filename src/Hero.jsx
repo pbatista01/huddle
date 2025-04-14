@@ -3,7 +3,6 @@ import heroImg from './images/illustration-mockups.svg';
 
 function Hero(){
     return(
-        (
               // Main section styles:
               // - Responsive paddings for different screen sizes
               // - Text aligned center on mobile, left on large screens
