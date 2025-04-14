@@ -26,7 +26,7 @@ function App() {
         featureImg={flowImg}
         featureTitle="Flowing Conversations"
         featureDescription="You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow."
-        extraOuterClass="pt-[66px] lg:mt-10"
+        extraOuterClass="pt-[66px] lg:mt-[40px]"
         extraInnerClass="mt-[68px] pb-[52px] lgplus:ml-[169px] lg:order-3 lg:ml-[40px]"
         extraMargin="mt-[15px] lgplus:w-[100%]"
         changeOrderImg="lg:order-1 lgplus:order-1"
@@ -35,7 +35,7 @@ function App() {
         featureImg={usersImg}
         featureTitle="Your Users"
         featureDescription="It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately."
-        extraOuterClass="mt-[39px] pt-[60px] lg:mt-10"
+        extraOuterClass="mt-[39px] pt-[60px] lg:mt-[40px]"
         extraInnerClass="mt-[63px]"
         extraMargin="mt-[14px] w-[95%] lgplus:w-[73%] "
       />
